@@ -2,6 +2,10 @@
 
 A modern, React-powered invoice builder application that allows users to create, edit, and export professional invoices as PDFs. This project was migrated from a static HTML page to a dynamic React app for better usability and maintainability.
 
+## Live Demo
+
+[View Live Demo](https://your-invoice-generator-vercel-url.vercel.app/)
+
 ## Features
 
 - **Dynamic Invoice Editing**: Edit company details, invoice number, date, event name, and more.
@@ -40,9 +44,11 @@ A modern, React-powered invoice builder application that allows users to create,
 
    The app will be available at `http://localhost:5173`.
 
+Or, visit the [Live Demo](https://your-invoice-generator-vercel-url.vercel.app/) to use the app directly.
+
 ## Usage
 
-1. Open the app in your browser.
+1. Visit the [Live Demo](https://your-invoice-generator-vercel-url.vercel.app/) or run locally as above.
 2. Fill in the invoice details in the form on the left.
 3. Add or edit items in the table.
 4. Upload logos, QR codes, or signatures if needed.
