@@ -146,11 +146,7 @@ function InvoicePage() {
       <header className="invoice-app-header">
         <div>
           <h1>Invoice Builder</h1>
-          <p>Convert the old static invoice page into a React-powered invoice editor.</p>
-        </div>
-        <div className="header-actions">
-          <button className="btn" onClick={downloadPDF}>Download PDF</button>
-          <button className="btn btn-secondary" onClick={clearData}>Clear</button>
+
         </div>
       </header>
 

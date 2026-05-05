@@ -4,7 +4,11 @@ A modern, React-powered invoice builder application that allows users to create,
 
 ## Live Demo
 
-[View Live Demo](https://your-invoice-generator-vercel-url.vercel.app/)
+[View Live Demo](https://invoice-generator-hioi.vercel.app/)
+
+## Portfolio
+
+Check out my [Portfolio](https://portfolio-eight-virid-6hjhyksnoy.vercel.app/) to see more of my work!
 
 ## Features
 
@@ -44,11 +48,11 @@ A modern, React-powered invoice builder application that allows users to create,
 
    The app will be available at `http://localhost:5173`.
 
-Or, visit the [Live Demo](https://your-invoice-generator-vercel-url.vercel.app/) to use the app directly.
+Or, visit the [Live Demo](https://invoice-generator-hioi.vercel.app/) to use the app directly.
 
 ## Usage
 
-1. Visit the [Live Demo](https://your-invoice-generator-vercel-url.vercel.app/) or run locally as above.
+1. Visit the [Live Demo](https://invoice-generator-hioi.vercel.app/) or run locally as above.
 2. Fill in the invoice details in the form on the left.
 3. Add or edit items in the table.
 4. Upload logos, QR codes, or signatures if needed.
