@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title></head>
+<body>
+  <h2>Create New Account</h2>
+  <input id="username" placeholder="Username"><br>
+  <input id="password" type="password" placeholder="Password"><br>
+  <button onclick="register()">Register</button>
+
+  <script>
+    function register() {
+      fetch('/api/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username: document.getElementById('username').value,
+          password: document.getElementById('password').value
+        })
+      })
+      .then(res => res.ok ? location.href = '/login.html' : alert('Username already exists'));
+    }
+  </script>
+</body>
+</html>
